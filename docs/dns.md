@@ -12,13 +12,13 @@
 
 **Principais arquivos de configuração:**
 
-- * hosts 
-- * resolv.conf
-- * named.conf - Principal arquivo de configuração (Red Hat)
-- * named.conf - Principal arquivo de configuração com includes (Debian)
-- * named.conf.options - Opções Globais (Debian)
-- * named.conf.local - Para configuração de Zonas (Debian)
-- * named.conf.default.zones - Para configuração de Zonas padrão (Debian)
+* hosts 
+* resolv.conf
+* named.conf - Principal arquivo de configuração (Red Hat)
+* named.conf - Principal arquivo de configuração com includes (Debian)
+* named.conf.options - Opções Globais (Debian)
+* named.conf.local - Para configuração de Zonas (Debian)
+* named.conf.default.zones - Para configuração de Zonas padrão (Debian)
 
 
 ---
