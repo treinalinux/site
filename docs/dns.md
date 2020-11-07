@@ -25,9 +25,11 @@
 ## Tipos de Namve Severs
 
 **autoritário**
+
 Os servidores de nomes autorizados respondem a registros de recursos que fazem parte de suas zonas apenas. Esta categoria inclui servidores de nomes primários (master) e secundários (slaves).
 
 **recursivo**
+
 Os servidores de nomes recursivos oferecem serviços de resolução, mas não são autorizados para nenhuma zona. As respostas para todas as resoluções são armazenadas em cache em uma memória por um período fixo de tempo, que é especificado pelo registro de recurso recuperado.
 
 
