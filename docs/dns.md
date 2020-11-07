@@ -2,11 +2,11 @@
 
 **Aviso importante, como estmos migrando os arquivos dos posts do site, vai ser comum você ver posts assim....**
 
-Em construção.
+##Em construção.
 
 **O que é um servidor DNS?**
 
-## Seridor DNS no Linux
+## Servidor DNS no Linux
 
 ### Bind 
 
