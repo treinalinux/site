@@ -1,6 +1,6 @@
 # Bem vindos ao Treina Linux! 🗒️
 
-Estavamos usando uma hospdagem tradicional e nosso dominio oficial [treinalinux.com](https://treinalinux.com). No momento temos uma no proposta para **💻 acesso**, que é usando o github.
+Estávamos usando uma hospdagem tradicional e nosso domínio oficial [treinalinux.com](https://treinalinux.com). No momento temos uma no proposta para **💻 acesso**, que é usando o github.
 
 Vamos aproveitar os beneficios e recursos do git.
 
