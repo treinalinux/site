@@ -22,7 +22,7 @@
 
 
 ---
-## Tipos de Namve Severs
+## Tipos de Name Severs
 
 **autoritário**
 
