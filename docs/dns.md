@@ -24,7 +24,7 @@
 ---
 ## Tipos de Name Severs
 
-**autoritário**
+**autoritativo**
 
 Os servidores de nomes autorizados respondem a registros de recursos que fazem parte de suas zonas apenas. Esta categoria inclui servidores de nomes primários (master) e secundários (slaves).
 
