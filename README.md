@@ -12,5 +12,7 @@ Os artigos serão revistos e publicados novamente. Os principais artigos que ter
 
 - **[DNS](https://treinalinux.github.io/treinalinux/dns)** Sevidores DNS no Linux, em especial no ambiente Red Hat.
 - **[DHCP](https://treinalinux.github.io/treinalinux/dhcp)** Servidor DHCP no Linux, em especial no ambiente Red Hat.
+- **[HTTPD](https://treinalinux.github.io/treinalinux/httpd)** Servidor HTTPD no Linux, em especial no ambiente Red Hat.
+- **[OPENSSL](https://treinalinux.github.io/treinalinux/openssl)** Certificadosno Linux com o openssl.
 - **[Postfix](https://treinalinux.github.io/treinalinux/postfix)** Sevidor de e-mail no Linux **Postfix** e **Dovecot**. 
 - **[Gerenciamento de Usuários e Grupos](https://treinalinux.github.io/treinalinux/Gerenciamento-de-Usuários-Grupos)** que vai envolver outros artigos relacionados.
