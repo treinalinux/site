@@ -55,3 +55,7 @@ Secundary Server
 
 
 ## Ferramentas de Consulta
+
+
+**Fontes**
+[Livro](https://amzn.to/2U8M0GN)
