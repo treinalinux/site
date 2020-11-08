@@ -162,3 +162,8 @@ Certificados subseqüentes serão nomeados `02.pem`, `03.pem` etc.
 Por fim, copie o novo certificado para o host que precisa dele e configure os aplicativos apropriados para usá-lo. O local padrão para instalar os certificados é `/etc/ssl/certs`. Isso permite que vários serviços usem o mesmo certificado sem permissões de arquivo excessivamente complicadas.
 
 Para aplicativos que podem ser configurados para usar um certificado CA, você também deve copiar o `/etc/ssl/certs/cacert.pem` arquivo para o diretório `/etc/ssl/certs/` em cada servidor.
+
+**Fontes:**
+
+[Network Security with OpenSSL: Cryptography for Secure Communications](https://amzn.to/3eFYRJK)
+
