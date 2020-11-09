@@ -13,9 +13,9 @@ Se você for novo no Kerberos, há alguns termos que devem ser entendidos antes 
 
 **Instances**: são usadas para entidades de serviço e entidades administrativas especiais.
 
-**Realms**: O domínio exclusivo de controle fornecido pela instalação do Kerberos. Pense nele como o domínio ou grupo ao qual seus hosts e usuários pertencem. A convenção determina que o domínio deve estar em maiúsculas. Por padrão, o perola usará o domínio DNS convertido em maiúsculas (`TREINALINUX.COM`) como o reino.
+**Realms**: O domínio exclusivo de controle fornecido pela instalação do Kerberos. Pense nele como o domínio ou grupo ao qual seus hosts e usuários pertencem. A convenção determina que o domínio deve estar em maiúsculas. Por padrão, o perola usará o domínio DNS convertido em maiúsculas (`TREINALINUX.COM`) como o realm.
 
-**Key Distribution Center**: (`KDC`) consiste em três partes: um banco de dados de todos os principais, o servidor de autenticação e o servidor de concessão de tíquetes. Para cada reino, deve haver pelo menos um KDC.
+**Key Distribution Center**: (`KDC`) consiste em três partes: um banco de dados de todos os principais, o servidor de autenticação e o servidor de concessão de tíquetes. Para cada realm, deve haver pelo menos um KDC.
 
 **Ticket Granting Ticket**: emitido pelo Authentication Server (AS), o Ticket Granting Ticket (`TGT`) é criptografado na senha do usuário que é conhecida apenas pelo usuário e pelo KDC.
 
@@ -38,7 +38,7 @@ Os tíquetes de serviço permitem que o usuário se autentique no serviço sem i
 Para esta discussão, criaremos um domínio MIT Kerberos com os seguintes recursos (edite-os para atender às suas necessidades):
 
 ```bash
-Reino: TREINALINUX.COM
+Realm: TREINALINUX.COM
 
 KDC primário: kdc01.treinalinux.com ( 192.168.0.241)
 
@@ -59,13 +59,13 @@ Antes de instalar o servidor Kerberos, é necessário um servidor DNS configurad
 
 Além disso, o Kerberos é um protocolo sensível ao tempo. Portanto, se o horário do sistema local entre uma máquina cliente e o servidor for diferente em mais de cinco minutos (por padrão), a estação de trabalho não será capaz de se autenticar. Para corrigir o problema, todos os hosts devem ter sua hora sincronizada usando o mesmo servidor `Network Time Protocol (NTP)`. 
 
-A primeira etapa na criação de um reino Kerberos é instalar os pacotes `krb5-kdc` e `krb5-admin-server`. De um terminal, digite:
+A primeira etapa na criação de um realm Kerberos é instalar os pacotes `krb5-kdc` e `krb5-admin-server`. De um terminal, digite:
 
 ```bash
 sudo apt install krb5-kdc krb5-admin-server
 ```
 
-No final da instalação, você será solicitado a fornecer o nome do host para os servidores Kerberos e Admin, que podem ou não ser o mesmo servidor, para o reino. Como vamos criar o reino e, portanto, esses servidores, digite o nome completo do host deste servidor.
+No final da instalação, você será solicitado a fornecer o nome do host para os servidores Kerberos e Admin, que podem ou não ser o mesmo servidor, para o realm. Como vamos criar o realm e, portanto, esses servidores, digite o nome completo do host deste servidor.
 
 > Nota
 > 
@@ -80,7 +80,7 @@ sudo krb5_newrealm
 Ele solicitará uma senha mestra do banco de dados, que é usada para criptografar o banco de dados local. Escolha uma senha segura: sua força não é verificada para você.
 
 ## Configuração
-As perguntas feitas durante a instalação são usadas para configurar os arquivos `/etc/krb5.conf` e `/etc/krb5kdc/kdc.conf`. O primeiro é usado pelas bibliotecas kerberos 5, e o último configura o KDC. Se você precisar ajustar as configurações do Key Distribution Center (KDC), simplesmente edite o arquivo e reinicie o daemon krb5-kdc. Se você precisar reconfigurar o Kerberos do zero, talvez para alterar o nome do reino, você pode fazer isso digitando
+As perguntas feitas durante a instalação são usadas para configurar os arquivos `/etc/krb5.conf` e `/etc/krb5kdc/kdc.conf`. O primeiro é usado pelas bibliotecas kerberos 5, e o último configura o KDC. Se você precisar ajustar as configurações do Key Distribution Center (KDC), simplesmente edite o arquivo e reinicie o daemon krb5-kdc. Se você precisar reconfigurar o Kerberos do zero, talvez para alterar o nome do realm, você pode fazer isso digitando
 
 ```bash
 sudo dpkg-reconfigure krb5-kdc
@@ -105,7 +105,7 @@ Principal "perola/admin@TREINALINUX.COM" created.
 kadmin.local: quit
 ```
 
-No exemplo acima, perola é o Principal , */admin* é uma Instância desse principal e `@TREINALINUX.COM` significa o reino. O Principal “todos os dias” , também conhecido como o principal do usuário , seria `perola@TREINALINUX.COM`, e deveria ter apenas direitos de usuário normais.
+No exemplo acima, perola é o Principal , */admin* é uma Instância desse principal e @ `TREINALINUX.COM` significa o realm. O Principal “todos os dias” , também conhecido como o principal do usuário , seria `perola@TREINALINUX.COM`, e deveria ter apenas direitos de usuário normais.
 
 > Nota
 > 
@@ -117,7 +117,7 @@ Em seguida, o novo usuário administrador precisa ter as permissões apropriadas
 perola/admin@TREINALINUX.COM        *
 ```
 
-Esta entrada concede ao **perola/admin** a habilidade de realizar qualquer operação em todos os principais no reino. Você pode configurar principais com privilégios mais restritivos, o que é conveniente se você precisar de um administrador principal que a equipe júnior possa usar em clientes Kerberos. Consulte a página do manual kadm5.acl para obter detalhes.
+Esta entrada concede ao **perola/admin** a habilidade de realizar qualquer operação em todos os principais no realm. Você pode configurar principais com privilégios mais restritivos, o que é conveniente se você precisar de um administrador principal que a equipe júnior possa usar em clientes Kerberos. Consulte a página do manual kadm5.acl para obter detalhes.
 
 > Nota
 > 
@@ -336,7 +336,7 @@ Normalmente, outra fonte de rede é usada para essas informações, como um serv
 
 ## Instalação
 
-Se você tiver usuários locais que correspondem aos principais em um reino Kerberos e quiser apenas mudar a autenticação de local para remoto usando Kerberos, siga esta seção. Este não é um cenário muito comum, mas serve para destacar a separação entre a autenticação do usuário e as informações do usuário (nome completo, uid, gid, diretório inicial, grupos, etc). 
+Se você tiver usuários locais que correspondem aos principais em um realm Kerberos e quiser apenas mudar a autenticação de local para remoto usando Kerberos, siga esta seção. Este não é um cenário muito comum, mas serve para destacar a separação entre a autenticação do usuário e as informações do usuário (nome completo, uid, gid, diretório inicial, grupos, etc). 
 
 Se você quiser apenas pegar os tíquetes e usá-los, basta instalar krb5-usere executar kinit.
 
