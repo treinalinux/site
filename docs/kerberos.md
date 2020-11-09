@@ -2,11 +2,14 @@
 
 ### Vamos usar uma versão com base no Debian, mas o conceito é o mesmo para Red Hat.
 
+
 Kerberos é um sistema de autenticação de rede baseado no princípio de um terceiro confiável. As outras duas partes são o usuário e o serviço no qual o usuário deseja se autenticar. Nem todos os serviços e aplicativos podem usar Kerberos, mas para aqueles que podem, ele traz o ambiente de rede um passo mais perto de ser `Single Sign On (SSO)`.
 
 Esta seção cobre a instalação e configuração de um servidor Kerberos e alguns exemplos de configurações de cliente.
 
+
 ## visão global
+
 Se você for novo no Kerberos, há alguns termos que devem ser entendidos antes de configurar um servidor Kerberos. A maioria dos termos está relacionada a coisas com as quais você pode estar familiarizado em outros ambientes:
 
 **Principal**: quaisquer usuários, computadores e serviços fornecidos por servidores precisam ser definidos como Principals Kerberos.
@@ -31,9 +34,12 @@ Se as credenciais fornecidas pelo usuário corresponderem, o usuário será aute
 
 Os tíquetes de serviço permitem que o usuário se autentique no serviço sem inserir outro nome de usuário e senha.
 
+
 ## Servidor Kerberos
 
+
 ### Instalação
+
 
 Para esta discussão, criaremos um domínio MIT Kerberos com os seguintes recursos (edite-os para atender às suas necessidades):
 
@@ -50,6 +56,7 @@ Administrador principal: perola/admin
 
 ```
 
+
 > Nota
 > 
 > É altamente recomendável que seus usuários autenticados pela rede tenham seu uid em um intervalo diferente (digamos, começando em 5000) do que seus usuários locais.
@@ -59,6 +66,7 @@ Antes de instalar o servidor Kerberos, é necessário um servidor DNS configurad
 
 Além disso, o Kerberos é um protocolo sensível ao tempo. Portanto, se o horário do sistema local entre uma máquina cliente e o servidor for diferente em mais de cinco minutos (por padrão), a estação de trabalho não será capaz de se autenticar. Para corrigir o problema, todos os hosts devem ter sua hora sincronizada usando o mesmo servidor `Network Time Protocol (NTP)`. 
 
+
 A primeira etapa na criação de um realm Kerberos é instalar os pacotes `krb5-kdc` e `krb5-admin-server`. De um terminal, digite:
 
 ```bash
@@ -67,9 +75,11 @@ sudo apt install krb5-kdc krb5-admin-server
 
 No final da instalação, você será solicitado a fornecer o nome do host para os servidores Kerberos e Admin, que podem ou não ser o mesmo servidor, para o realm. Como vamos criar o realm e, portanto, esses servidores, digite o nome completo do host deste servidor.
 
+
 > Nota
 > 
 > Por padrão, o domínio é criado a partir do nome de domínio do KDC.
+
 
 Em seguida, crie o novo domínio com o kdb5_newrealmutilitário:
 
@@ -79,7 +89,10 @@ sudo krb5_newrealm
 
 Ele solicitará uma senha mestra do banco de dados, que é usada para criptografar o banco de dados local. Escolha uma senha segura: sua força não é verificada para você.
 
+
 ## Configuração
+
+
 As perguntas feitas durante a instalação são usadas para configurar os arquivos `/etc/krb5.conf` e `/etc/krb5kdc/kdc.conf`. O primeiro é usado pelas bibliotecas kerberos 5, e o último configura o KDC. Se você precisar ajustar as configurações do Key Distribution Center (KDC), simplesmente edite o arquivo e reinicie o daemon krb5-kdc. Se você precisar reconfigurar o Kerberos do zero, talvez para alterar o nome do realm, você pode fazer isso digitando
 
 ```bash
@@ -106,6 +119,7 @@ kadmin.local: quit
 ```
 
 No exemplo acima, perola é o Principal , */admin* é uma Instância desse principal e @ `TREINALINUX.COM` significa o realm. O Principal “todos os dias” , também conhecido como o principal do usuário , seria `perola@TREINALINUX.COM`, e deveria ter apenas direitos de usuário normais.
+
 
 > Nota
 > 
@@ -161,6 +175,7 @@ _kerberos-adm._tcp.TREINALINUX.COM. IN SRV 1  0 749 kdc01.treinalinux.com.
 _kpasswd._udp.TREINALINUX.COM.      IN SRV 1  0 464 kdc01.treinalinux.com.
 ```
 
+
 > Nota
 > 
 > Substitua `TREINALINUX.COM`, `kdc01` e `kdc02` com seu nome de domínio, KDC primário e KDC secundário.
@@ -182,11 +197,14 @@ Seu novo Kerberos Realm agora está pronto para autenticar clientes.
 
 ## KDC Secundário
 
+
 Depois de ter um Centro de distribuição de chaves (KDC) em sua rede, é uma boa prática ter um KDC secundário, caso o principal se torne indisponível. Além disso, se você tiver clientes Kerberos que estão em redes diferentes (possivelmente separados por roteadores usando NAT), é aconselhável colocar um KDC secundário em cada uma dessas redes.
+
 
 > Nota
 > 
 > O mecanismo de replicação nativo explicado aqui depende de um cronjob e, essencialmente, despeja o banco de dados no primário e o carrega de volta no secundário. Você pode querer dar uma olhada em como usar o backend kldap, que pode usar o mecanismo de replicação OpenLDAP. Isso é explicado mais adiante.
+
 
 Primeiro, instale os pacotes e, quando perguntado pelos nomes dos servidores Kerberos e Admin, digite o nome do KDC primário:
 
@@ -357,6 +375,7 @@ E o administrador do servidor será: kdc01.treinalinux.com. Lembre-se de que kdc
 > Se você adicionou os registros SRV apropriados ao DNS, nenhum desses prompts precisará de resposta.
 
 ## Configuração
+
 Se você perdeu as perguntas anteriormente, você pode reconfigurar o pacote para enchê-los novamente: sudo dpkg-reconfigure krb5-config.
 
 Você pode testar a configuração do Kerberos solicitando um tíquete usando o kinitutilitário. Por exemplo:
