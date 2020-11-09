@@ -90,6 +90,6 @@ sudo systemctl restart isc-dhcp-server.service
 ```
 
 **Fontes:**
-A página Wiki do Ubuntu dhcp3-server tem mais informações.
+*ISC DHCP tem mais informações.*
 
 Para obter mais `/etc/dhcp/dhcpd.conf` opções, consulte a página do manual dhcpd.conf.
