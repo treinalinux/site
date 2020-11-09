@@ -8,7 +8,7 @@ Kerberos é um sistema de autenticação de rede baseado no princípio de um ter
 Esta seção cobre a instalação e configuração de um servidor Kerberos e alguns exemplos de configurações de cliente.
 
 
-## visão global
+## Visão geral
 
 Se você for novo no Kerberos, há alguns termos que devem ser entendidos antes de configurar um servidor Kerberos. A maioria dos termos está relacionada a coisas com as quais você pode estar familiarizado em outros ambientes:
 
@@ -451,8 +451,6 @@ Valid starting     Expires            Service principal
 ```
 
 E você terá um tíquete Kerberos logo após o login.
-
-Recursos
 
 
 **Fonte:**
