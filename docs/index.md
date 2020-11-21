@@ -10,10 +10,11 @@ Vamos aproveitar os beneficios e recursos do git.
 
 Os artigos serão revistos e publicados novamente. Os principais artigos que terão prioriadade são:
 
-- **[DNS](https://treinalinux.github.io/treinalinux/dns)** Sevidores DNS no Linux, em especial no ambiente Red Hat.
-- **[DHCP](https://treinalinux.github.io/treinalinux/dhcp)** Servidor DHCP no Linux, em especial no ambiente Red Hat.
-- **[HTTPD](https://treinalinux.github.io/treinalinux/httpd)** Servidor HTTPD no Linux, em especial no ambiente Red Hat.
-- **[KERBEROS](https://treinalinux.github.io/treinalinux/kerberos)** Servidor kerberos no Linux, em especial no ambiente Debian.
+- **[DNS](https://treinalinux.github.io/treinalinux/dns)** Sevidores DNS no Linux, em especial no ambiente `Red Hat`.
+- **[DHCP](https://treinalinux.github.io/treinalinux/dhcp)** Servidor DHCP no Linux, em especial no ambiente `Red Hat`.
+- **[DATABASE](https://treinalinux.github.io/treinalinux/oracleex)** Servidor de Banco de Dados Oracle no Linux, em especial no ambiente `Red Hat`.
+- **[HTTPD](https://treinalinux.github.io/treinalinux/httpd)** Servidor HTTPD no Linux, em especial no ambiente `Red Hat`.
+- **[KERBEROS](https://treinalinux.github.io/treinalinux/kerberos)** Servidor kerberos no Linux, em especial no ambiente `Debian`.
 - **[OPENSSL](https://treinalinux.github.io/treinalinux/openssl)** Certificadosno Linux com o openssl.
 - **[Postfix](https://treinalinux.github.io/treinalinux/postfix)** Sevidor de e-mail no Linux **Postfix** e **Dovecot**. 
 - **[Gerenciamento de Usuários e Grupos](https://treinalinux.github.io/treinalinux/Gerenciamento-de-Usuários-Grupos)** que vai envolver outros artigos relacionados.
