@@ -31,9 +31,10 @@ Você terá um Oracle Database para uso em qualquer ambiente e será capaz de in
 
 ```bash
   yum update
+```
 
+```bash
   yum -y install binutils compat-libcap1 gcc gcc-c++ glibc glibc.i686 glibc-devel glibc.i686 ksh libaio libaio.i686 libaio-devel libaio-devel.i686 libgcc libgcc.i686 libstdc++ libstdc++l7.i686 libstdc++-devel libstdc++-devel.i686 compat-libstdc++-33 compat-libstdc++-33.i686 libXi libXi.i686 libXtst libXtst.i686 make sysstat
-
 ```
 
 
@@ -132,11 +133,11 @@ Identificador de Sistema (SID):XE
 **10. Adicionar o Oracle no path do **usuário oracle** e do **root** somente, pode usar o .bash_profile mesmo:**
 
 ```bash
-	umask 022
-	export ORACLE_SID=XE
-	export ORACLE_BASE=/opt/oracle/oradata
-	export ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
-	export PATH=$PATH:$ORACLE_HOME/bin
+umask 022
+export ORACLE_SID=XE
+export ORACLE_BASE=/opt/oracle/oradata
+export ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
+export PATH=$PATH:$ORACLE_HOME/bin
 ```
 
 
