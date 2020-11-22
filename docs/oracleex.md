@@ -41,7 +41,6 @@ Você terá um Oracle Database para uso em qualquer ambiente e será capaz de in
 **4. Desabilitar o SELinux:**
 
 ```bash
-
   sestatus
 ```
 
@@ -133,11 +132,11 @@ Identificador de Sistema (SID):XE
 **10. Adicionar o Oracle no path do **usuário oracle** e do **root** somente, pode usar o .bash_profile mesmo:**
 
 ```bash
-umask 022
-export ORACLE_SID=XE
-export ORACLE_BASE=/opt/oracle/oradata
-export ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
-export PATH=$PATH:$ORACLE_HOME/bin
+ umask 022
+ export ORACLE_SID=XE
+ export ORACLE_BASE=/opt/oracle/oradata
+ export ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
+ export PATH=$PATH:$ORACLE_HOME/bin
 ```
 
 
@@ -147,26 +146,26 @@ export PATH=$PATH:$ORACLE_HOME/bin
 **11. Teste a conexão com sqlplus:**
 
 ```bash
-	[root@oracledb ~]# sqlplus
+ [root@oracledb ~]# sqlplus
 
-	SQL*Plus: Release 18.0.0.0.0 - Production on Sat Nov 21 07:04:18 2020
-	Version 18.4.0.0.0
+ SQL*Plus: Release 18.0.0.0.0 - Production on Sat Nov 21 07:04:18 2020
+ Version 18.4.0.0.0
 
-	Copyright (c) 1982, 2018, Oracle.  All rights reserved.
+ Copyright (c) 1982, 2018, Oracle.  All rights reserved.
 
-	Enter user-name: system
-	Enter password: 
-	Horario do ultimo log-in bem-sucedido: Sab Nov 21 2020 07:03:22 -03:00
+ Enter user-name: system
+ Enter password: 
+ Horario do ultimo log-in bem-sucedido: Sab Nov 21 2020 07:03:22 -03:00
 
-	Conectado a:
-	Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production
-	Version 18.4.0.0.0
+ Conectado a:
+ Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production
+ Version 18.4.0.0.0
 
-	SQL> select username from dba_users;
-	...
-	...
-	...
-	SQL> exit;
+ SQL> select username from dba_users;
+ ...
+ ...
+ ...
+ SQL> exit;
 ``` 
 
 
