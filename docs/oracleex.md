@@ -22,14 +22,9 @@ Você terá um Oracle Database para uso em qualquer ambiente e será capaz de in
 **2. Configurar o arquivo hosts seu IP e com o nome do host (não usar o FQDN):**
 
 ```bash 
-  nmci
-
-  cat /etc/hosts
-
-  hostname
-
-  vim /etc/hosts
-
+# Exemplo:
+# IP          nome_somente
+192.168.0.90  serverdb
 ```
 
 **3. Atualizar e instalar pacotes necessários como pré-requesito:**
@@ -46,30 +41,31 @@ Você terá um Oracle Database para uso em qualquer ambiente e será capaz de in
 
 ```bash
 
-  sestatus 
+  sestatus
+```
 
+```bash
   reboot 
-
-  sestatus 
-
 ```
 
 **5. Instalação do Oracle Database 18c Express Edition (XE):**
 
 ```bash  
   curl -o oracle-database-preinstall-18c-1.0-1.el7.x86_64.rpm https://yum.oracle.com/repo/OracleLinux/OL7/latest/x86_64/getPackage/oracle-database-preinstall-18c-1.0-1.el7.x86_64.rpm
+```
 
+```bash
   yum -y localinstall oracle-database-preinstall-18c-1.0-1.el7.x86_64.rpm 
+```
 
+```bash
   yum -y localinstall oracle-database-xe-18c-1.0-1.x86_64.rpm 
-
 ```
 
 
 **6. Configuração inicial do banco de dados:**
 
 ```bash
-
   /etc/init.d/oracle-xe-18c configure
 ```
   
@@ -93,10 +89,13 @@ Identificador de Sistema (SID):XE
 
 ```bash
   yum -y localinstall sqldeveloper-20.2.0.175.1842-20.2.0-175.1842.noarch.rpm jdk-8u271-linux-x64.rpm
- 
+```
+
+```bash
  yum update 
-  
-  
+```
+
+```bash
   alternatives --config java
 ```
 
@@ -104,11 +103,17 @@ Identificador de Sistema (SID):XE
 
 ```bash
   firewall-cmd --add-port=5500/tcp --permanent 
-  
+```
+
+```bash
   firewall-cmd --add-port=1521/tcp --permanent 
-  
+```
+
+```bash
   firewall-cmd --reload
-  
+```
+
+```bash
   firewall-cmd --list-all
 ```
 
@@ -117,7 +122,9 @@ Identificador de Sistema (SID):XE
 
 ```bash
   reboot 
+```
 
+```bash
   /etc/init.d/oracle-xe-18c start
 ```
 
