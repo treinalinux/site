@@ -487,6 +487,29 @@ Se nenhuma opção for especificada, o comportamento dependerá das opções de 
 Se o suporte DNS não estiver compilado, essa entrada não terá efeito.
 
 
+**forwardble = true** - Se este sinalizador for *true*, os tíquetes iniciais serão encaminhados por padrão, se permitido pelo KDC. O valor padrão é *false*.
+
+
+**rdns = false** - Se este sinalizador for *true*, a consulta reversa de nome será usada além da consulta direta de nome para canonizar nomes de host para uso em nomes de entidades de serviço. Se dns_canonicalize_hostname for definido como false, este sinalizador não terá efeito. O valor padrão é *true*.
+
+
+**renew_lifetime = 7d** - O valor dessa tag é a vida útil renovável padrão para os tickets iniciais. O valor padrão da tag é 0.
+
+
+**ticket_lifetime = 24h** -  Sets the default lifetime for initial ticket requests. The default value is 1 day.
+
+
+**[domain_realm]** - A seção **[domain_realm]** fornece uma tradução de um nome de domínio ou nome de host para um nome de domínio Kerberos. 
+
+O nome da marca pode ser um nome de host ou nome de domínio, onde os nomes de domínio são indicados por um prefixo de um ponto (.). 
+
+O valor da relação é o nome do domínio Kerberos para esse host ou domínio específico. Uma relação de nome de host fornece implicitamente a relação de nome de domínio correspondente, a menos que uma relação de nome de domínio explícita seja fornecida. 
+
+O domínio Kerberos pode ser identificado na seção de domínios ou usando registros SRV do DNS. 
+
+Os nomes de host e nomes de domínio devem estar em letras minúsculas.
+
+
 ### Fonte:
 *Consulte o site do MIT Kerberos.*
 
