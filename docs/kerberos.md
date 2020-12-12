@@ -150,7 +150,7 @@ $ kinit perola/admin
 Password for perola/admin@TREINALINUX.COM:
 ````
 
-Depois de inserir a senha, use o utilitário klist para ver informações sobre o Ticket Granting Ticket (TGT):
+Depois de inserir a senha, use o utilitário klist para ver informações sobre o **Ticket Granting Ticket (TGT)**:
 
 ```bash
 $ klist
@@ -223,13 +223,13 @@ kadmin -q "addprinc -randkey host/kdc02.treinalinux.com"
 >
 > O padrão do comando kadmin é usar um principal como username/admin@TREINALINUX.COM, onde username é seu usuário shell atual. Se você precisar substituir isso, use-p principal-you-want
 
-Certifique-se o principal que você está usando tem o extra de extract-keysprivilégio em kdc01's arquivo /etc/krb5kdc/kadm5.acl. Algo assim:
+Certifique-se o principal que você está usando tem o extra de extract-keys privilégio em kdc01 no arquivo /etc/krb5kdc/kadm5.acl. Algo assim:
 
 ```bash
 perola/admin@TREINALINUX.COM *e
 ```
 
-Onde “*” significa todos os privilégios (exceto extract-keys) e esignifica exatamente extract-keys.
+Onde “*” significa todos os privilégios (exceto extract-keys) e significa exatamente extract-keys.
 
 Extraia o arquivo keytab :
 
@@ -452,7 +452,16 @@ Valid starting     Expires            Service principal
 
 E você terá um tíquete Kerberos logo após o login.
 
+## Glossário
 
-**Fonte:**
+**default_realm = TREINALINUX.COM** - Identifica o domínio Kerberos padrão para o cliente. Defina seu valor para o seu reino Kerberos. Se isso não for especificado e a pesquisa de registro TXT estiver habilitada (consulte Usando DNS), essas informações serão usadas para determinar o domínio padrão. Se esta tag não estiver definida neste arquivo de configuração e não houver informações de DNS encontradas, um erro será retornado.
+
+**default_keytab_name = FILE:/etc/krb5.keytab** - Esta relação especifica o nome do keytab padrão a ser usado por servidores de aplicativos, como telnetd e rlogind. O padrão é /etc/krb5.keytab.
+
+**dns_lookup_realm = true** - Indique se os registros TXT do DNS devem ser usados para determinar o domínio Kerberos de um host. Habilitar essa opção pode permitir um ataque de redirecionamento, em que as respostas DNS falsificadas persuadem um cliente a se autenticar no domínio errado, ao falar com o host errado (falsificando ainda mais registros DNS ou interceptando o tráfego da rede). Dependendo de como o software cliente gerencia os nomes de host, no entanto, ele já pode estar vulnerável a tais ataques. Estamos procurando maneiras possíveis de minimizar ou eliminar essa exposição. Por enquanto, incentivamos os sites mais aventureiros a tentar usar DNS seguro. Se esta opção não for especificada, mas dns_fallback for, esse valor será usado. Se nenhuma opção for especificada, o comp    ortamento dependerá das opções de tempo de configuração; se nenhum for fornecido, o padrão é desabilitar esta opção. Se o suporte DNS não estiver compilado, essa entrada não terá efeito. 
+
+**dns_lookup_kdc = true** - Indique se os registros SRV do DNS devem ser usados para localizar os KDCs e outros servidores para um realm, se eles não estiverem listados nas informações do realm. (Observe que a entrada admin_server deve estar no arquivo, porque a implementação do DNS para ele está incompleta.) Habilitar essa opção abre um tipo de ataque de negação de serviço, se alguém falsificar os registros DNS e redirecionar você para outro servidor. No entanto, não é pior do que uma negação de serviço, porque aquele KDC falso será incapaz de decodificar qualquer coisa que você enviar (além da solicitação de tíquete inicial, que não tem dados criptografados), e qualquer coisa que o KDC falso enviar não será confiável sem verificação usando algum segredo que ele não saberá. Se esta opção não for especificada, mas dns_fallback for, esse valor será usado. Se nenhuma opção for especificada, o comportamento dependerá das opções de tempo de configuração; se nenhum for fornecido, o padrão é habilitar esta opção. Se o suporte DNS não estiver compilado, essa entrada não terá efeito.
+
+###Fonte:
 *Consulte o site do MIT Kerberos.*
 
