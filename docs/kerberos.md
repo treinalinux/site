@@ -496,7 +496,7 @@ Se o suporte DNS não estiver compilado, essa entrada não terá efeito.
 **renew_lifetime = 7d** - O valor dessa tag é a vida útil renovável padrão para os tickets iniciais. O valor padrão da tag é 0.
 
 
-**ticket_lifetime = 24h** -  Sets the default lifetime for initial ticket requests. The default value is 1 day.
+**ticket_lifetime = 24h** - Define a vida útil padrão para solicitações de tickets iniciais. O valor padrão é 1 dia.
 
 
 **[domain_realm]** - A seção **[domain_realm]** fornece uma tradução de um nome de domínio ou nome de host para um nome de domínio Kerberos. 
