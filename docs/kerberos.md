@@ -339,7 +339,7 @@ De agora em diante, você pode especificar os dois servidores KDC /etc/krb5.conf
 ```
 
 
-O KDC secundário agora deve ser capaz de emitir tíquetes para o Reino. Você pode testar isso parando o krb5-kdcdaemon no KDC primário e usando kinitpara solicitar um tíquete. Se tudo correr bem, você deve receber um tíquete do KDC Secundário. Caso contrário, verifique `/var/log/syslog` e `/var/log/auth.log` no KDC secundário.
+O KDC secundário agora deve ser capaz de emitir tíquetes para o Reino. Você pode testar isso parando o krb5-kdcdaemon no KDC primário e usando kinit para solicitar um tíquete. Se tudo correr bem, você deve receber um tíquete do KDC Secundário. Caso contrário, verifique `/var/log/syslog` e `/var/log/auth.log` no KDC secundário.
 
 ## Cliente Kerberos Linux
 
@@ -356,7 +356,7 @@ Normalmente, outra fonte de rede é usada para essas informações, como um serv
 
 Se você tiver usuários locais que correspondem aos principais em um realm Kerberos e quiser apenas mudar a autenticação de local para remoto usando Kerberos, siga esta seção. Este não é um cenário muito comum, mas serve para destacar a separação entre a autenticação do usuário e as informações do usuário (nome completo, uid, gid, diretório inicial, grupos, etc). 
 
-Se você quiser apenas pegar os tíquetes e usá-los, basta instalar krb5-usere executar kinit.
+Se você quiser apenas pegar os tíquetes e usá-los, basta instalar krb5-user e executar kinit.
 
 Vamos usar sssdum truque para que ele busque as informações do usuário nos arquivos do sistema local, em vez de uma fonte remota, o que é o caso comum.
 
@@ -387,7 +387,7 @@ Password for perola/admin@TREINALINUX.COM:
 
 > Nota
 >
-> kinit não precisa que o principal exista como um usuário local no sistema. Na verdade, você pode kinitusar o principal que quiser. Se você não especificar um, a ferramenta usará o nome de usuário de quem estiver executando kinit.
+> kinit não precisa que o principal exista como um usuário local no sistema. Na verdade, você pode usar kinit para o principal que quiser. Se você não especificar um, a ferramenta usará o nome de usuário de quem estiver executando kinit.
 
 Já que estamos nisso, vamos também criar um principal não administrativo para perola:
 
@@ -454,13 +454,27 @@ E você terá um tíquete Kerberos logo após o login.
 
 ## Glossário
 
-**default_realm = TREINALINUX.COM** - Identifica o domínio Kerberos padrão para o cliente. Defina seu valor para o seu reino Kerberos. Se isso não for especificado e a pesquisa de registro TXT estiver habilitada (consulte Usando DNS), essas informações serão usadas para determinar o domínio padrão. Se esta tag não estiver definida neste arquivo de configuração e não houver informações de DNS encontradas, um erro será retornado.
+**default_realm = TREINALINUX.COM** - Identifica o domínio Kerberos padrão para o cliente. Defina seu valor para o seu reino Kerberos. 
+
+Se isso não for especificado e a pesquisa de registro TXT estiver habilitada (consulte Usando DNS), essas informações serão usadas para determinar o domínio padrão. 
+
+Se esta tag não estiver definida neste arquivo de configuração e não houver informações de DNS encontradas, um erro será retornado.
 
 **default_keytab_name = FILE:/etc/krb5.keytab** - Esta relação especifica o nome do keytab padrão a ser usado por servidores de aplicativos, como telnetd e rlogind. O padrão é /etc/krb5.keytab.
 
-**dns_lookup_realm = true** - Indica se os registros TXT do DNS devem ser usados para determinar o domínio Kerberos de um host. Habilitar essa opção pode permitir um ataque de redirecionamento, em que as respostas DNS falsificadas persuadem um cliente a se autenticar no domínio errado, ao falar com o host errado (falsificando ainda mais registros DNS ou interceptando o tráfego da rede). Dependendo de como o software cliente gerencia os nomes de host, no entanto, ele já pode estar vulnerável a tais ataques. Estamos procurando maneiras possíveis de minimizar ou eliminar essa exposição. Por enquanto, incentivamos os sites mais aventureiros a tentar usar DNS seguro. Se esta opção não for especificada, mas dns_fallback for, esse valor será usado. Se nenhuma opção for especificada, o comp    ortamento dependerá das opções de tempo de configuração; se nenhum for fornecido, o padrão é desabilitar esta opção. Se o suporte DNS não estiver compilado, essa entrada não terá efeito. 
+**dns_lookup_realm = true** - Indica se os registros TXT do DNS devem ser usados para determinar o domínio Kerberos de um host. 
 
-**dns_lookup_kdc = true** - Indica se os registros SRV do DNS devem ser usados para localizar os KDCs e outros servidores para um realm, se eles não estiverem listados nas informações do realm. (Observe que a entrada admin_server deve estar no arquivo, porque a implementação do DNS para ele está incompleta.) Habilitar essa opção abre um tipo de ataque de negação de serviço, se alguém falsificar os registros DNS e redirecionar você para outro servidor. No entanto, não é pior do que uma negação de serviço, porque aquele KDC falso será incapaz de decodificar qualquer coisa que você enviar (além da solicitação de tíquete inicial, que não tem dados criptografados), e qualquer coisa que o KDC falso enviar não será confiável sem verificação usando algum segredo que ele não saberá. Se esta opção não for especificada, mas dns_fallback for, esse valor será usado. Se nenhuma opção for especificada, o comportamento dependerá das opções de tempo de configuração; se nenhum for fornecido, o padrão é habilitar esta opção. Se o suporte DNS não estiver compilado, essa entrada não terá efeito.
+Habilitar essa opção pode permitir um ataque de redirecionamento, em que as respostas DNS falsificadas persuadem um cliente a se autenticar no domínio errado, ao falar com o host errado (falsificando ainda mais registros DNS ou interceptando o tráfego da rede). 
+
+Dependendo de como o software cliente gerencia os nomes de host, no entanto, ele já pode estar vulnerável a tais ataques. Estamos procurando maneiras possíveis de minimizar ou eliminar essa exposição. Por enquanto, incentivamos os sites mais aventureiros a tentar usar DNS seguro. 
+
+Se esta opção não for especificada, mas dns_fallback for, esse valor será usado. Se nenhuma opção for especificada, o comp    ortamento dependerá das opções de tempo de configuração; se nenhum for fornecido, o padrão é desabilitar esta opção. Se o suporte DNS não estiver compilado, essa entrada não terá efeito. 
+
+**dns_lookup_kdc = true** - Indica se os registros SRV do DNS devem ser usados para localizar os KDCs e outros servidores para um realm, se eles não estiverem listados nas informações do realm. (Observe que a entrada admin_server deve estar no arquivo, porque a implementação do DNS para ele está incompleta.) 
+
+Habilitar essa opção abre um tipo de ataque de negação de serviço, se alguém falsificar os registros DNS e redirecionar você para outro servidor. No entanto, não é pior do que uma negação de serviço, porque aquele KDC falso será incapaz de decodificar qualquer coisa que você enviar (além da solicitação de tíquete inicial, que não tem dados criptografados), e qualquer coisa que o KDC falso enviar não será confiável sem verificação usando algum segredo que ele não saberá. 
+
+Se esta opção não for especificada, mas dns_fallback for, esse valor será usado. Se nenhuma opção for especificada, o comportamento dependerá das opções de tempo de configuração; se nenhum for fornecido, o padrão é habilitar esta opção. Se o suporte DNS não estiver compilado, essa entrada não terá efeito.
 
 ### Fonte:
 *Consulte o site do MIT Kerberos.*
