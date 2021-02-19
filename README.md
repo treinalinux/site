@@ -10,10 +10,14 @@ Criei o site
 </p>
 
 
-Em 2019 fui contratado pela empresa Global Hitss para administrar servidores Linux, Unix e Windows Server em um grande cliente com operações no Brasil e em vários países do exterior.
+Atualmente trabalho na empresa Global Hitss, fui contratado em 2019 para administrar servidores Linux, Unix e Windows Server em um grande cliente com operações no Brasil e em vários países do exterior. 
 
 <p>
-Liguagens de programação que tenho conhecimento são Python, Golang, Ruby On Rails, Shell Script, PowerShell e também Perl. Atualmente tenho mais interesse em Golang e Python.
+Liguagens de programação que tenho conhecimento são Python, Golang, Ruby On Rails (básico), Shell Script, PowerShell e também Perl (Já tem um tempinho que não uso). 
+</p>
+
+<p>
+Atualmente tenho mais interesse nas liguagens Golang, Python e Ruby On Rails.
 </p>
 
 <p>
