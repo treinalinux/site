@@ -26,6 +26,11 @@ Estou muito focado com o mundo de infraestrutura DevOps e também com as liguage
 
 </p>
 
+<p>
+
+Quanto ao projeto Treina Linux, os artigos vão ficar publicados aqui mesmo no github, certamente fica mais fácil git commit -m "Novo artigo publicado".
+
+</p>
 ---
 
 
