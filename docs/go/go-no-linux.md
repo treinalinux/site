@@ -1,6 +1,5 @@
 i## Instalação do go no Linux
 
-
 - 1 - Baixar e instalar
 - 2 - Colocar no PATH
 - 3 - Recarregar o .profile
