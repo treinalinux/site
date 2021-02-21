@@ -1,4 +1,4 @@
-i## Instalação do go no Linux
+## Instalação do go no Linux
 
 - 1 - Baixar e instalar
 - 2 - Colocar no PATH
