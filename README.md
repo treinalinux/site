@@ -47,5 +47,5 @@ Os artigos serão revistos e publicados novamente. Os principais artigos que ter
 - **[OPENSSL](https://treinalinux.github.io/treinalinux/openssl)** Certificadosno Linux com o openssl.
 - **[Postfix](https://treinalinux.github.io/treinalinux/postfix)** Sevidor de e-mail no Linux **Postfix** e **Dovecot**. 
 - **[Gerenciamento de Usuários e Grupos](https://treinalinux.github.io/treinalinux/Gerenciamento-de-Usuários-Grupos)** que vai envolver outros artigos relacionados.
-- - **[Golang](https://treinalinux.github.io/treinalinux/)** -> `Em construção`.
+- - **[Golang](https://treinalinux.github.io/treinalinux/go/go-no-linux)** -> `Go no Linux`.
 - - **[Python](https://treinalinux.github.io/treinalinux)** -> `Em construção`.
