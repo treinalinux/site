@@ -103,9 +103,9 @@ SHOW GRANTS FOR 'alan'@'%';
 
 
 
-## Testar
+## Testar a conexão
 
-Hora de testar a conexão e se os usuários criados tem permissão de fato no banco de dados.
+Hora de testar a conexão, e ver se os usuários criados tem permissão de fato no banco de dados.
 
 O teste abaixo vai testar com conexão com o banco de dados através do IP de exemplo 192.168.0.201 pela usuária carlaalves.
 
@@ -127,4 +127,9 @@ O ambiente também poderia ser feito via Docker, mas estamos com um servidor em 
 Espero que ajude outros estudantes.
 
 Att, Alan Alves.
+
+## Links:
+
+[MySQL Workbench](https://www.mysql.com/products/workbench/)
+[MySQL Server](https://dev.mysql.com/downloads/repo/yum/)
 
