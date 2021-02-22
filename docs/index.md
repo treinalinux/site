@@ -13,7 +13,7 @@ Os artigos serão revistos e publicados novamente. Os principais artigos que ter
 - **[DNS](https://treinalinux.github.io/treinalinux/dns)** Sevidores DNS no Linux, em especial no ambiente `Red Hat`.
 - **[DHCP](https://treinalinux.github.io/treinalinux/dhcp)** Servidor DHCP no Linux, em especial no ambiente `Red Hat`.
 - **[DATABASE](https://treinalinux.github.io/treinalinux/oracleex)** Servidor de Banco de Dados Oracle no Linux, em especial no ambiente `Red Hat`.
-- **[DATABASE](https://treinalinux.github.io/treinalinux/database/mysql.md)** Servidor de Banco de Dados MySQL 8 no Linux, em especial no ambiente de estudos `Red Hat`.
+- **[DATABASE](https://treinalinux.github.io/treinalinux/database/mysql)** Servidor de Banco de Dados MySQL 8 no Linux, em especial no ambiente de estudos `Red Hat`.
 - **[HTTPD](https://treinalinux.github.io/treinalinux/httpd)** Servidor HTTPD no Linux, em especial no ambiente `Red Hat`.
 - **[KERBEROS](https://treinalinux.github.io/treinalinux/kerberos)** Servidor kerberos no Linux, em especial no ambiente `Debian`.
 - **[OPENSSL](https://treinalinux.github.io/treinalinux/openssl)** Certificadosno Linux com o openssl.
