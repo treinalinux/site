@@ -13,7 +13,7 @@ Criei o site
 Atualmente trabalho na empresa Global Hitss, fui contratado em 2019 para administrar servidores Linux, Unix e Windows Server em um grande cliente com operações no Brasil e em vários países do exterior. 
 
 <p>
-Liguagens de programação que tenho conhecimento são Ruby On Rails, Python, Golang, Shell Script, PowerShell e também Perl (Já tem um tempinho que não uso o Perl). 
+	Liguagens de programação que tenho conhecimento são <b>Ruby On Rails</b>, Python, Golang, Shell Script, PowerShell e também Perl (Já tem um tempinho que não uso o Perl). 
 </p>
 
 <p>
@@ -22,7 +22,7 @@ Atualmente tenho mais interesse nas liguagens Ruby On Rails, Golang e Python.
 
 <p>
 
-Estou muito buscando oportunidades em Ruby On Rails e estou estudadndo infraestrutura DevOps.
+Estou buscando oportunidades em <b>Ruby On Rails</b> e estou estudadndo infraestrutura DevOps.
 
 </p>
 
