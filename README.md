@@ -38,14 +38,14 @@ Caso tenha alguma oferta de trabalho é necessário me contatar via [LinkedIn](h
 
 Liguagem  | Projeto | Status |
 --------- | ------- | :----: |
-Ruby      | [Jogo da Forca](https://github.com/treinalinux/Ruby-Jogo-da-Forca) | Pronto |
-Ruby      | [Colaborador Vacinado](https://github.com/treinalinux/Colaborador-Vacinado) | Pronto |
-Ruby on Rails | [Loja](https://github.com/treinalinux/Ruby-On-Rails-Loja) | Pronto |
-Ruby on Rails | [Blog](https://github.com/treinalinux/blog) | Pronto |
-Ruby on Rails | [Mind App](https://github.com/treinalinux/mind-app) | Pronto |
-Ruby on Rails | [Classificados](https://github.com/treinalinux/classificados) | Pronto |
-Ruby on Rails | [Rails TDD](https://github.com/treinalinux/rails-tdd) | Pronto |
-Ruby on Rails | [Notebook API](https://github.com/treinalinux/notebook-api) | Pronto |
+Ruby      | [Jogo da Forca](https://github.com/treinalinux/Ruby-Jogo-da-Forca) | :white_check_mark: |
+Ruby      | [Colaborador Vacinado](https://github.com/treinalinux/Colaborador-Vacinado) | :white_check_mark: |
+Ruby on Rails | [Loja](https://github.com/treinalinux/Ruby-On-Rails-Loja) | :white_check_mark: |
+Ruby on Rails | [Blog](https://github.com/treinalinux/blog) | :white_check_mark: |
+Ruby on Rails | [Mind App](https://github.com/treinalinux/mind-app) | :white_check_mark: |
+Ruby on Rails | [Classificados](https://github.com/treinalinux/classificados) | :white_check_mark: |
+Ruby on Rails | [Rails TDD](https://github.com/treinalinux/rails-tdd) | :white_check_mark: |
+Ruby on Rails | [Notebook API](https://github.com/treinalinux/notebook-api) | :white_check_mark: |
 Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networking) | `Em andamento` |
 Ruby on Rails | [ToDo](https://github.com/treinalinux/todo) | `Em andamento` |
 
