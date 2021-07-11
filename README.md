@@ -44,16 +44,15 @@ Estou buscando oportunidades em <b>Ruby On Rails</b> e estou estudadndo infraest
 - [Frutaria](https://github.com/treinalinux/react-frutaria)
 - [Formulário](https://github.com/treinalinux/react-formulario)
 
-<p>
 
-Quanto ao projeto Treina Linux, os artigos vão ficar publicados aqui mesmo no github, certamente fica mais bem fácil executar um git commit -m "Novo artigo publicado".
-
-</p>
 ---
 
 
-
 ## Artigos antigos
+
+Novos artigos devem demorar um pouco mais de tempo, estou pensando em levantar um novo site/projeto em Ruby on Rails.
+
+Quanto ao projeto Treina Linux, os artigos vão ficar publicados aqui mesmo no github, certamente fica mais bem fácil executar um git commit -m "Novo artigo publicado".
 
 Os artigos serão revistos e publicados novamente. Os principais artigos que terão prioriadade são:
 
