@@ -22,7 +22,7 @@ Atualmente tenho mais interesse nas liguagens Ruby On Rails, Golang e Python.
 
 <p>
 
-Estou buscando oportunidades em <b>Ruby On Rails</b>, outra linguagem que gosto é Swift para o desenvolvimento de iOS, estou estudadndo infraestrutura DevOps.
+Estou buscando oportunidades em <b>Ruby On Rails</b>, outra linguagem que gosto é Swift para o desenvolvimento de iOS, mas vou deixar o Swift para o futuro.
 
 </p>
 
