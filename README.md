@@ -34,7 +34,9 @@ Caso tenha alguma oferta de trabalho é necessário me contatar via [LinkedIn](h
 - [Em PDF](https://github.com/treinalinux/About-Me/blob/main/Curriculo_Atualizado_Alan_da_Silva_Alves.pdf)
 - [LinkedIn](https://www.linkedin.com/in/alandasilvaalves/)
 
-## Meus Projetos em Ruby e Ruby On Rails (treinamentos)
+## Projetos em Ruby e Ruby On Rails
+
+Meus Projetos em Ruby e Ruby On Rails (treinamentos)
 
 Liguagem  | Projeto | Status |
 --------- | ------- | :----: |
@@ -50,7 +52,9 @@ Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networ
 Ruby on Rails | [ToDo](https://github.com/treinalinux/todo) | :ballot_box_with_check: |
 
 
-## Meus Projetos em React (treinamentos)
+## Projetos em React
+
+Meus Projetos em React (treinamentos)
 
 Liguagem  | Projeto | Status |
 --------- | ------- | :----: |
