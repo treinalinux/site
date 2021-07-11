@@ -2,7 +2,7 @@
 
 ### Olá, pessoal 👋
 
-Sou Alan Alves.
+Sou [Alan Alves](https://github.com/treinalinux/About-Me/blob/main/README.md).
 
 <p>
 Criei o site 
@@ -25,6 +25,11 @@ Atualmente tenho mais interesse nas liguagens Ruby On Rails, Golang e Python.
 Estou buscando oportunidades em <b>Ruby On Rails</b> e estou estudadndo infraestrutura DevOps.
 
 </p>
+
+## Meu Currículo
+
+- [About-me](https://github.com/treinalinux/About-Me)
+- [Em PDF](https://github.com/treinalinux/About-Me/blob/main/Curriculo_Atualizado_Alan_da_Silva_Alves.pdf)
 
 ## Meus Projetos em Ruby e Ruby On Rails (treinamentos)
 
