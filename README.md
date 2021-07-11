@@ -37,7 +37,7 @@ Caso tenha alguma oferta de trabalho é necessário me contatar via [LinkedIn](h
 ## Meus Projetos em Ruby e Ruby On Rails (treinamentos)
 
 Liguagem  | Projeto | Status |
---------- | ------- | ------ |
+--------- | ------- | :----: |
 Ruby      | [Jogo da Forca](https://github.com/treinalinux/Ruby-Jogo-da-Forca) | Pronto |
 Ruby      | [Colaborador Vacinado](https://github.com/treinalinux/Colaborador-Vacinado) | Pronto |
 Ruby on Rails | [Loja](https://github.com/treinalinux/Ruby-On-Rails-Loja) | Pronto |
