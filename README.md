@@ -36,16 +36,19 @@ Caso tenha alguma oferta de trabalho é necessário me contatar via [LinkedIn](h
 
 ## Meus Projetos em Ruby e Ruby On Rails (treinamentos)
 
-- Ruby [Jogo da Forca](https://github.com/treinalinux/Ruby-Jogo-da-Forca)
-- Ruby [Colaborador Vacinado](https://github.com/treinalinux/Colaborador-Vacinado)
-- Ruby on Rails [Loja](https://github.com/treinalinux/Ruby-On-Rails-Loja)
-- Ruby on Rails [Blog](https://github.com/treinalinux/blog)
-- Ruby on Rails [Mind App](https://github.com/treinalinux/mind-app)
-- Ruby on Rails [Classificados](https://github.com/treinalinux/classificados)
-- Ruby on Rails [Rails TDD](https://github.com/treinalinux/rails-tdd)
-- Ruby on Rails [Notebook API](https://github.com/treinalinux/notebook-api)
-- Ruby on Rails [Social Networking](https://github.com/treinalinux/social_networking) `Em andamento`
-- Ruby on Rails [ToDo](https://github.com/treinalinux/todo) `Em andamento`
+Liguagem  | Projeto | Status |
+--------- | ------- | ------ |
+Ruby      | [Jogo da Forca](https://github.com/treinalinux/Ruby-Jogo-da-Forca) | Pronto |
+Ruby      | [Colaborador Vacinado](https://github.com/treinalinux/Colaborador-Vacinado) | Pronto |
+Ruby on Rails | [Loja](https://github.com/treinalinux/Ruby-On-Rails-Loja) | Pronto |
+Ruby on Rails | [Blog](https://github.com/treinalinux/blog) | Pronto |
+Ruby on Rails | [Mind App](https://github.com/treinalinux/mind-app) | Pronto |
+Ruby on Rails | [Classificados](https://github.com/treinalinux/classificados) | Pronto |
+Ruby on Rails | [Rails TDD](https://github.com/treinalinux/rails-tdd) | Pronto |
+Ruby on Rails | [Notebook API](https://github.com/treinalinux/notebook-api) | Pronto |
+Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networking) | `Em andamento` |
+Ruby on Rails | [ToDo](https://github.com/treinalinux/todo) | `Em andamento` |
+
 
 ## Meus Projetos em React (treinamentos)
 
