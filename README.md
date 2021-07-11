@@ -22,14 +22,17 @@ Atualmente tenho mais interesse nas liguagens Ruby On Rails, Golang e Python.
 
 <p>
 
-Estou buscando oportunidades em <b>Ruby On Rails</b> e estou estudadndo infraestrutura DevOps.
+Estou buscando oportunidades em <b>Ruby On Rails</b>, outra linguagem que gosto é Swift para o desenvolvimento de iOS, estou estudadndo infraestrutura DevOps.
 
 </p>
 
 ## Meu Currículo
 
+Caso tenha alguma oferta de trabalho é necessário me contatar via [LinkedIn](https://www.linkedin.com/in/alandasilvaalves/).
+
 - [About-me](https://github.com/treinalinux/About-Me)
 - [Em PDF](https://github.com/treinalinux/About-Me/blob/main/Curriculo_Atualizado_Alan_da_Silva_Alves.pdf)
+- [LinkedIn](https://www.linkedin.com/in/alandasilvaalves/)
 
 ## Meus Projetos em Ruby e Ruby On Rails (treinamentos)
 
