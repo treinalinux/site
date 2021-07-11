@@ -46,14 +46,16 @@ Ruby on Rails | [Mind App](https://github.com/treinalinux/mind-app) | :white_che
 Ruby on Rails | [Classificados](https://github.com/treinalinux/classificados) | :white_check_mark: |
 Ruby on Rails | [Rails TDD](https://github.com/treinalinux/rails-tdd) | :white_check_mark: |
 Ruby on Rails | [Notebook API](https://github.com/treinalinux/notebook-api) | :white_check_mark: |
-Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networking) | `Em andamento` |
-Ruby on Rails | [ToDo](https://github.com/treinalinux/todo) | `Em andamento` |
+Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networking) | :ballot_box_with_check: |
+Ruby on Rails | [ToDo](https://github.com/treinalinux/todo) | :ballot_box_with_check: |
 
 
 ## Meus Projetos em React (treinamentos)
 
-- [Frutaria](https://github.com/treinalinux/react-frutaria)
-- [Formulário](https://github.com/treinalinux/react-formulario)
+Liguagem  | Projeto | Status |
+--------- | ------- | :----: |
+React | [Frutaria](https://github.com/treinalinux/react-frutaria) | :white_check_mark: |
+React | [Formulário](https://github.com/treinalinux/react-formulario) | :white_check_mark: |
 
 
 ---
