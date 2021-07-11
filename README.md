@@ -4,11 +4,11 @@
 
 Sou [Alan Alves](https://github.com/treinalinux/About-Me/blob/main/README.md).
 
-<p>
-Criei o site 
-	<a href"https://treinalinux.github.io/treinalinux/">treinalinux.com</a> como um projeto pessoal, mas acabei ficando sem tempo para manter o projeto. Acabei movendo o projeto para o github.
-</p>
+Atualmente estou buscando oportunidades para trabalhar como [Desenvolvedor Ruby on Rails](https://github.com/treinalinux/treinalinux#projetos-em-ruby-e-ruby-on-rails), também tem conhecimentos em [React](https://github.com/treinalinux/treinalinux#projetos-em-react)
 
+<p>
+Agora vou fazer um resumo sobre meu antigo site <a href"https://treinalinux.github.io/treinalinux/">treinalinux.com</a> como um projeto pessoal, mas acabei ficando sem tempo para manter o projeto. Acabei movendo o projeto para o github.
+</p>
 
 Atualmente trabalho na empresa Global Hitss, fui contratado em 2019 para administrar servidores Linux, Unix e Windows Server em um grande cliente com operações no Brasil e em vários países do exterior. 
 
@@ -17,7 +17,7 @@ Atualmente trabalho na empresa Global Hitss, fui contratado em 2019 para adminis
 </p>
 
 <p>
-Atualmente tenho mais interesse nas liguagens Ruby On Rails, Golang e Python.
+Atualmente tenho mais interesse nas liguagens Ruby On Rails, Golang, Python e Swift.
 </p>
 
 <p>
