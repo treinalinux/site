@@ -38,29 +38,29 @@ Caso tenha alguma oferta de trabalho é necessário me contatar via [LinkedIn](h
 
 Meus Projetos em Ruby e Ruby On Rails (treinamentos)
 
-Liguagem  | Projeto | Status |
---------- | ------- | :----: |
-Ruby      | [Jogo da Forca](https://github.com/treinalinux/Ruby-Jogo-da-Forca) | :white_check_mark: |
-Ruby      | [Colaborador Vacinado](https://github.com/treinalinux/Colaborador-Vacinado) | :white_check_mark: |
-Ruby on Rails | [Loja](https://github.com/treinalinux/Ruby-On-Rails-Loja) | :white_check_mark: |
-Ruby on Rails | [Blog](https://github.com/treinalinux/blog) | :white_check_mark: |
-Ruby on Rails | [Mind App](https://github.com/treinalinux/mind-app) | :white_check_mark: |
-Ruby on Rails | [Classificados](https://github.com/treinalinux/classificados) | :white_check_mark: |
-Ruby on Rails | [Rails TDD](https://github.com/treinalinux/rails-tdd) | :white_check_mark: |
-Ruby on Rails | [Notebook API](https://github.com/treinalinux/notebook-api) | :white_check_mark: |
-Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networking) | :ballot_box_with_check: |
-Ruby on Rails | [ToDo](https://github.com/treinalinux/todo) | :ballot_box_with_check: |
-Ruby on Rails | [Blog Treina Linux](https://github.com/treinalinux/blog-treinalinux#blog-treina-linux) | :ballot_box_with_check: |
+Liguagem  | Projeto | Status | README |
+--------- | ------- | :----: | :----: |
+Ruby      | [Jogo da Forca](https://github.com/treinalinux/Ruby-Jogo-da-Forca) | :white_check_mark: | :ballot_box_with_check: |
+Ruby      | [Colaborador Vacinado](https://github.com/treinalinux/Colaborador-Vacinado) | :white_check_mark: | :ballot_box_with_check: |
+Ruby on Rails | [Loja](https://github.com/treinalinux/Ruby-On-Rails-Loja) | :white_check_mark: | :ballot_box_with_check: |
+Ruby on Rails | [Blog](https://github.com/treinalinux/blog) | :white_check_mark: | :ballot_box_with_check: |
+Ruby on Rails | [Mind App](https://github.com/treinalinux/mind-app) | :white_check_mark: | :ballot_box_with_check: |
+Ruby on Rails | [Classificados](https://github.com/treinalinux/classificados) | :white_check_mark: | :ballot_box_with_check: |
+Ruby on Rails | [Rails TDD](https://github.com/treinalinux/rails-tdd) | :white_check_mark: | :ballot_box_with_check: |
+Ruby on Rails | [Notebook API](https://github.com/treinalinux/notebook-api) | :white_check_mark: | :ballot_box_with_check: |
+Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networking) | :ballot_box_with_check: | :ballot_box_with_check: |
+Ruby on Rails | [ToDo](https://github.com/treinalinux/todo) | :ballot_box_with_check: | :ballot_box_with_check: |
+Ruby on Rails | [Blog Treina Linux](https://github.com/treinalinux/blog-treinalinux#blog-treina-linux) | :ballot_box_with_check: | :ballot_box_with_check: |
 
 
 ## Projetos em React
 
 Meus Projetos em React (treinamentos)
 
-Liguagem  | Projeto | Status |
---------- | ------- | :----: |
-React | [Frutaria](https://github.com/treinalinux/react-frutaria) | :white_check_mark: |
-React | [Formulário](https://github.com/treinalinux/react-formulario) | :white_check_mark: |
+Liguagem  | Projeto | Status | README |
+--------- | ------- | :----: |:----: |
+React | [Frutaria](https://github.com/treinalinux/react-frutaria) | :white_check_mark: | :ballot_box_with_check: |
+React | [Formulário](https://github.com/treinalinux/react-formulario) | :white_check_mark: | :ballot_box_with_check: |
 
 
 ---
