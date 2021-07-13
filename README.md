@@ -50,7 +50,7 @@ Ruby on Rails | [Rails TDD](https://github.com/treinalinux/rails-tdd) | :white_c
 Ruby on Rails | [Notebook API](https://github.com/treinalinux/notebook-api) | :white_check_mark: | :ballot_box_with_check: |
 Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networking) | :ballot_box_with_check: | :ballot_box_with_check: |
 Ruby on Rails | [ToDo](https://github.com/treinalinux/todo) | :ballot_box_with_check: | :ballot_box_with_check: |
-Ruby on Rails | [Blog Treina Linux](https://github.com/treinalinux/blog-treinalinux#blog-treina-linux) | :ballot_box_with_check: | :ballot_box_with_check: |
+Ruby on Rails | [Blog Treina Linux](https://github.com/treinalinux/blog-treinalinux#blog-treina-linux) | :ballot_box_with_check: | :white_check_mark: |
 
 
 ## Projetos em React
