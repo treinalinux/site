@@ -51,7 +51,7 @@ Ruby on Rails | [Notebook API](https://github.com/treinalinux/notebook-api) | :w
 Ruby on Rails | [Social Networking](https://github.com/treinalinux/social_networking) | :ballot_box_with_check: | :ballot_box_with_check: |
 Ruby on Rails | [To Do](https://github.com/treinalinux/todo#readme) | :white_check_mark: | :ballot_box_with_check: |
 Ruby on Rails | [Blog Treina Linux](https://github.com/treinalinux/blog-treinalinux#blog-treina-linux) | :ballot_box_with_check: | :white_check_mark: |
-Ruby on Rails | [Instagram](https://github.com/treinalinux/instagram) | :white_check_mark: | :white_check_mark: |
+Ruby on Rails | [Instagram](https://github.com/treinalinux/instagram) | :ballot_box_with_check: | :ballot_box_with_check: |
 
 
 ## Projetos em React
