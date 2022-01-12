@@ -42,6 +42,7 @@ Liguagem  | Projeto | Status | README |
 --------- | ------- | :----: | :----: |
 Ruby      | [Jogo da Forca](https://github.com/treinalinux/Ruby-Jogo-da-Forca) | ✅ | :ballot_box_with_check: |
 Ruby      | [Colaborador Vacinado](https://github.com/treinalinux/Colaborador-Vacinado) | ✅ | :ballot_box_with_check: |
+Ruby on Rails | [Ecommerce API](https://github.com/treinalinux/ecommerce-api) | :ballot_box_with_check:| :ballot_box_with_check: |
 Ruby on Rails | [Loja](https://github.com/treinalinux/Ruby-On-Rails-Loja) | ✅ | :ballot_box_with_check: |
 Ruby on Rails | [Blog](https://github.com/treinalinux/blog) | ✅ | :ballot_box_with_check: |
 Ruby on Rails | [Mind App](https://github.com/treinalinux/mind-app) | ✅| :ballot_box_with_check: |
