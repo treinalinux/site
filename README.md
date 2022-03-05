@@ -4,7 +4,9 @@
 
 Sou [Alan Alves](https://github.com/treinalinux/About-Me/blob/main/README.md).
 
-Atualmente estou buscando oportunidades para trabalhar como [Desenvolvedor Ruby on Rails](https://github.com/treinalinux/treinalinux#projetos-em-ruby-e-ruby-on-rails), também tem conhecimentos em [React](https://github.com/treinalinux/treinalinux#projetos-em-react)
+Atualmente estou buscando oportunidades para trabalhar como [Desenvolvedor Ruby on Rails](https://github.com/treinalinux/treinalinux#projetos-em-ruby-e-ruby-on-rails), também tem conhecimentos em [React.](https://github.com/treinalinux/treinalinux#projetos-em-react)
+
+##
 
 <div align="center">
   <a href="https://github.com/treinalinux">
