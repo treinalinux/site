@@ -16,10 +16,6 @@ Atualmente estou buscando oportunidades para trabalhar como [Desenvolvedor Ruby 
 
 ##
 
-<p>
-Agora vou fazer um resumo sobre meu antigo site <a href"https://treinalinux.github.io/treinalinux/">treinalinux.com</a> como um projeto pessoal, mas acabei ficando sem tempo para manter o projeto. Acabei movendo o projeto para o github.
-</p>
-
 Atualmente trabalho na empresa Global Hitss, fui contratado em 2019 para administrar servidores Linux, Unix e Windows Server em um grande cliente com operações no Brasil e em vários países do exterior. 
 
 <p>
@@ -80,6 +76,10 @@ React | [Formulário](https://github.com/treinalinux/react-formulario) | ✅ | :
 
 ## Artigos antigos
 
+<p>
+Agora vou fazer um resumo sobre meu antigo site <a href"https://treinalinux.github.io/treinalinux/">treinalinux.com</a> como um projeto pessoal, mas acabei ficando sem tempo para manter o projeto. Acabei movendo o projeto para o github.
+</p>
+	
 Novos artigos devem demorar um pouco mais de tempo, estou pensando em levantar um novo site/projeto em Ruby on Rails.
 
 Quanto ao projeto Treina Linux, os artigos vão ficar publicados aqui mesmo no github, certamente fica mais bem fácil executar um git commit -m "Novo artigo publicado".
