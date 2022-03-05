@@ -6,6 +6,14 @@ Sou [Alan Alves](https://github.com/treinalinux/About-Me/blob/main/README.md).
 
 Atualmente estou buscando oportunidades para trabalhar como [Desenvolvedor Ruby on Rails](https://github.com/treinalinux/treinalinux#projetos-em-ruby-e-ruby-on-rails), também tem conhecimentos em [React](https://github.com/treinalinux/treinalinux#projetos-em-react)
 
+<div align="center">
+  <a href="https://github.com/treinalinux">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=treinalinux&show_icons=true&theme=calm&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=treinalinux&layout=compact&langs_count=7&theme=calm"/>
+</div>
+
+##
+
 <p>
 Agora vou fazer um resumo sobre meu antigo site <a href"https://treinalinux.github.io/treinalinux/">treinalinux.com</a> como um projeto pessoal, mas acabei ficando sem tempo para manter o projeto. Acabei movendo o projeto para o github.
 </p>
