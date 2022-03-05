@@ -4,37 +4,18 @@
 
 Sou [Alan Alves](https://github.com/treinalinux/About-Me/blob/main/README.md).
 
-Atualmente estou buscando oportunidades para trabalhar como [Desenvolvedor Ruby on Rails](https://github.com/treinalinux/treinalinux#projetos-em-ruby-e-ruby-on-rails), também tem conhecimentos em [React.](https://github.com/treinalinux/treinalinux#projetos-em-react)
+Atualmente estou buscando oportunidades para trabalhar como [Desenvolvedor Ruby on Rails](https://github.com/treinalinux/treinalinux#projetos-em-ruby-e-ruby-on-rails), também tem conhecimentos em [React](https://github.com/treinalinux/treinalinux#projetos-em-react).
 
 ##
 
 <div align="center">
-  <a href="https://github.com/treinalinux">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=treinalinux&show_icons=true&theme=calm&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=treinalinux&layout=compact&langs_count=7&theme=calm"/>
 </div>
 
-##
-
-Atualmente trabalho na empresa Global Hitss, fui contratado em 2019 para administrar servidores Linux, Unix e Windows Server em um grande cliente com operações no Brasil e em vários países do exterior. 
-
-<p>
-	Liguagens de programação que tenho conhecimento são <b>Ruby On Rails</b>, Python, Golang, Shell Script, PowerShell e também Perl (Já tem um tempinho que não uso o Perl). 
-</p>
-
-<p>
-Atualmente tenho mais interesse nas liguagens Ruby On Rails, Golang, Python e Swift.
-</p>
-
-<p>
-
-Estou buscando oportunidades em <b>Ruby On Rails</b>, outra linguagem que gosto é Swift para o desenvolvimento de iOS, mas vou deixar o Swift para o futuro.
-
-</p>
-
 ## Meu Currículo
 
-Caso tenha alguma oferta de trabalho é necessário me contatar via [LinkedIn](https://www.linkedin.com/in/alandasilvaalves/).
+**Caso tenha alguma oferta de trabalho é necessário me contatar via** [LinkedIn](https://www.linkedin.com/in/alandasilvaalves/).
 
 - [About-me](https://github.com/treinalinux/About-Me)
 - [Em PDF](https://github.com/treinalinux/About-Me/blob/main/Curriculo_Atualizado_Alan_da_Silva_Alves.pdf)
@@ -76,25 +57,9 @@ React | [Formulário](https://github.com/treinalinux/react-formulario) | ✅ | :
 
 ## Artigos antigos
 
-<p>
-Agora vou fazer um resumo sobre meu antigo site <a href"https://treinalinux.github.io/treinalinux/">treinalinux.com</a> como um projeto pessoal, mas acabei ficando sem tempo para manter o projeto. Acabei movendo o projeto para o github.
-</p>
+
+Agora vou fazer um resumo sobre meu antigo site [treinalinux.com](https://treinalinux.github.io/treinalinux) como um projeto pessoal, mas acabei ficando sem tempo para manter o projeto. Acabei movendo alguns artigos projeto para o github, mas meu trabalho está me tomando um tempo muito grande.
+
+Quem sabe no futuro eu possa criar um novo blog usando o Ruby on Rails.
+
 	
-Novos artigos devem demorar um pouco mais de tempo, estou pensando em levantar um novo site/projeto em Ruby on Rails.
-
-Quanto ao projeto Treina Linux, os artigos vão ficar publicados aqui mesmo no github, certamente fica mais bem fácil executar um git commit -m "Novo artigo publicado".
-
-Os artigos serão revistos e publicados novamente. Os principais artigos que terão prioriadade são:
-
-- **[DNS](https://treinalinux.github.io/treinalinux/dns)** Sevidores DNS no Linux, em especial no ambiente `Red Hat`.
-- **[DHCP](https://treinalinux.github.io/treinalinux/dhcp)** Servidor DHCP no Linux, em especial no ambiente `Red Hat`.
-- **[DATABASE](https://treinalinux.github.io/treinalinux/oracleex)** Servidor de Banco de Dados Oracle no Linux, em especial no ambiente `Red Hat`.
-- **[DATABASE](https://treinalinux.github.io/treinalinux/database/mysql)** Servidor de Banco de Dados MySQL 8 no Linux, em especial no ambiente de estudos `Red Hat`.
-- **[HTTPD](https://treinalinux.github.io/treinalinux/httpd)** Servidor HTTPD no Linux, em especial no ambiente `Red Hat`.
-- **[KERBEROS](https://treinalinux.github.io/treinalinux/kerberos)** Servidor kerberos no Linux, em especial no ambiente `Debian`.
-- **[OPENSSL](https://treinalinux.github.io/treinalinux/openssl)** Certificadosno Linux com o openssl.
-- **[Postfix](https://treinalinux.github.io/treinalinux/postfix)** Sevidor de e-mail no Linux **Postfix** e **Dovecot**. 
-- **[Gerenciamento de Usuários e Grupos](https://treinalinux.github.io/treinalinux/Gerenciamento-de-Usuários-Grupos)** que vai envolver outros artigos relacionados.
-- - **[Golang](https://treinalinux.github.io/treinalinux/go/go-no-linux)** -> `Go no Linux`.
-- - **[Ruby On Rails](https://treinalinux.github.io/treinalinux/ruby/ruby-on-rails)** -> `Em construção`.
-- - **[Python](https://treinalinux.github.io/treinalinux)** -> `Em construção`.
